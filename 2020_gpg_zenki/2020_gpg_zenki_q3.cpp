@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-float allCalc(int* a, int* b) {
+void allCalc(int* a, int* b) {
 	
 	int calc[4] = { *a + *b,*a - *b,*a * *b,*a / *b };
 
@@ -24,5 +24,5 @@ int main() {
 	cout << "“ñ‚Â–Ú‚Ì”Žš" << endl;
 	cin >> secondnum;
 
-	cout << allCalc(p, q) << endl;
+	allCalc(p, q);
 }
